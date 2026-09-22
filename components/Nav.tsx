@@ -1,6 +1,8 @@
 "use client";
 
-const links = ["About", "Services", "Organisations", "Contact"];
+import Image from "next/image";
+
+const links = ["About", "Services", "Contact", "Organisations"];
 
 export default function Nav() {
   return (
@@ -9,8 +11,9 @@ export default function Nav() {
         className="container"
         style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
       >
-        <a href="/" style={{ fontFamily: "'Source Serif 4', serif", fontSize: "1.75rem" }}>
-          Clematis Therapy
+        <a href="/" style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
+          <Image src="/logo.png" alt="Clematis Therapy" width={140} height={40} style={{ height: "70px", width: "auto" }} priority />
+          <span style={{ fontFamily: "'Source Serif 4', serif", fontSize: "2.0rem" }}>Clematis Therapy</span>
         </a>
         <nav style={{ display: "flex", gap: "2rem" }}>
           {links.map((item) => (
