@@ -12,8 +12,8 @@ export default function Home() {
         I work with individuals, couples, and families, as well as staff teams in
         social work and charity organisations facing the emotional weight of their roles.
       </p>
-      <a href="/booking" style={{ display: "inline-block", marginTop: "2rem", padding: "0.8rem 1.6rem", background: "#4b3f52", color: "#f7f4ee", borderRadius: "2px" }}>
-        Book a consultation
+      <a href="/contact" style={{ display: "inline-block", marginTop: "2rem", padding: "0.8rem 1.6rem", background: "#4b3f52", color: "#f7f4ee", borderRadius: "2px" }}>
+        Arrange a free consultation
       </a>
     </section>
   );

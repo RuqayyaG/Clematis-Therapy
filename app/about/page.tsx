@@ -21,8 +21,9 @@ export default function About() {
       <h2 style={{ fontSize: "1.4rem", marginTop: "3rem" }}>Training & registration</h2>
       <ul style={{ fontSize: "1rem", marginTop: "1rem", paddingLeft: "1.2rem" }}>
         <li style={{ marginBottom: "0.5rem" }}>MBACP Registered</li>
+        <li style={{ marginBottom: "0.5rem" }}>NCPS Accredited member</li>
         <li style={{ marginBottom: "0.5rem" }}>Diploma in Psychodynamic Psychotherapy and Counselling</li>
-        <li style={{ marginBottom: "0.5rem" }}>Over 10 years' experience in mental health and social care</li>
+        <li style={{ marginBottom: "0.5rem" }}>Over 10 years' experience in therapy</li>
       </ul>
     </section>
   );

@@ -1,6 +1,6 @@
 "use client";
 
-const links = ["About", "Services", "Contact", "Organisations"];
+const links = ["About", "Services", "Organisations", "Contact"];
 
 export default function Nav() {
   return (
@@ -10,7 +10,7 @@ export default function Nav() {
         style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
       >
         <a href="/" style={{ fontFamily: "'Source Serif 4', serif", fontSize: "1.75rem" }}>
-          Tasneem Hussain
+          Clematis Therapy
         </a>
         <nav style={{ display: "flex", gap: "2rem" }}>
           {links.map((item) => (

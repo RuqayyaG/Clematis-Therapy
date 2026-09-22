@@ -62,10 +62,10 @@ export default function ForOrganisations() {
         ))}
       </ul>
       
-      <h2 style={{ fontSize: "1.4rem", marginTop: "3rem" }}>For enquiries:</h2>
-      <p style={{ fontSize: "1.05rem", marginTop: "1rem", maxWidth: "580px" }}>
-        ASDFGHJKL
-      </p>
+      <h2 style={{ fontSize: "1.4rem", marginTop: "3rem" }}>For enquiries click below to arrange a free call:</h2>
+       <a href="/contact" style={{ display: "inline-block", marginTop: "2rem", padding: "0.8rem 1.6rem", background: "#4b3f52", color: "#f7f4ee", borderRadius: "2px" }}>
+        Book
+      </a>
     </section>
   );
 }
