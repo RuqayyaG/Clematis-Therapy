@@ -33,3 +33,37 @@ a {
   margin: 0 auto;
   padding: 0 1.5rem;
 }
+
+.hamburger-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.desktop-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.75rem, 3vw, 2rem);
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .desktop-nav {
+    display: none;
+  }
+  .hamburger-btn {
+    display: block;
+  }
+  .mobile-menu.open {
+    display: flex;
+  }
+}
